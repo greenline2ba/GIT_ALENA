@@ -1,1 +1,2 @@
 # Hello! How can I assist you with your Python code today?
+print ("ahoj! :)")
