@@ -37,10 +37,10 @@ Vypočítaná cieľová suma
 ## 📊 Príklady a Ukážky
 ### Scenár 1: - Jednoduché sporenie: 
 
-(Napr. Vklad $1000, 5\%$ úrok, 10 rokov).
+(Napr. počiatočný vklad 1000 eur, 5% úrok, 10 rokov).
 
-Zadajte počiatočný vklad: 1000
-Zadajte ročnú úrokovú sadzbu (%): 5
+Zadajte počiatočný vklad: 1000 eur, 
+Zadajte ročnú úrokovú sadzbu (%): 5, 
 Zadajte počet rokov: 10
 
 >>> Výsledok: Vaša budúca hodnota po 10 rokoch bude: 1628.89
@@ -48,20 +48,20 @@ Zadajte počet rokov: 10
 
 ### Scenár 2 - Pravidelné sporenie:
  
-(Napr. pravidelný mesačný vklad $50, 5\%$ úrok, 10 rokov).
+(Napr. pravidelný mesačný vklad 50 eur, 5% úrok, úrok, 10 rokov).
 
-Zadajte pravidelný mesačný vklad: 50
-Zadajte ročnú úrokovú sadzbu (%): 5
+Zadajte pravidelný mesačný vklad: 50 eur,
+Zadajte ročnú úrokovú sadzbu (%): 5,
 Zadajte počet rokov: 10
 
 >>> Výsledok: Vaša budúca hodnota po 10 rokoch bude: ....xxx
 
 ### Scenár 3 - Pravidelné sporenie s počiatočným vkladom:
 
-(Napr. pravidelný mesačný vklad $50, 5\%$ úrok, 10 rokov).
+(Napr. počiatočný vklad: 1000 eur, pravidelný mesačný vklad 50 eur, 5% úrok, 10 rokov).
 
-Zadajte počiatočný vklad: 1000
-Zadajte pravidelný mesačný vklad: 50
+Zadajte počiatočný vklad: 1000 eur,
+Zadajte pravidelný mesačný vklad: 50 eur,
 Zadajte ročnú úrokovú sadzbu (%): 5
 Zadajte počet rokov: 10
 
@@ -77,17 +77,24 @@ doplniť
 
 Vzorec pre počiatočný vklad:
 ```bash 
- $FV = P(1+r)^n$
+ FV = P(1+r)^n
  ```
 
 Vzorec pre mesačné vklady: 
 ```bash 
- FV=PMT⋅r(1+r)n−1​
+ FV = PMT⋅r(1+r)n−1​
 ```
 
 **Kľúčové funkcie**:
 ```bash 
-vypocetCS(jednorazovy_vklad,pravidelny_vklad, urokova_sadzba_rocne, pocet_rokov):
+def vypocetCS(jednorazovy_vklad,pravidelny_vklad, urokova_sadzba_rocne, pocet_rokov):
+    urokova_sadzba_rocne=urokova_sadzba_rocne/100
+    urokova_sadzba_per_month= urokova_sadzba_rocne/12
+    pocet_mesiacov= pocet_rokov*12
+    FVpravidelne = (pravidelny_vklad * (((1 + urokova_sadzba_per_month) ** pocet_mesiacov - 1) / urokova_sadzba_per_month))
+    FVjednorazova =(jednorazovy_vklad*(1+urokova_sadzba_per_month)**pocet_mesiacov)
+    CS = round(FVjednorazova+FVpravidelne,2)
+    return CS
 ```
 
 **Kódové bloky ukážka**:
