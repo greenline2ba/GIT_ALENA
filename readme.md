@@ -8,9 +8,11 @@ Napísať fungujúci skript na základnú finančnú (investičnú/ sporiacu) ka
 
 ## Obsah
 Základný obsah:
-* [Popisfunkcionality](Popis funkcionality)
-* [Vstupné Parametre](Vstupné Parametre)
-* [Postupy]()
+* [Popisfunkcionality]()
+* [Vstupné Parametre]()
+* [Výstup]()
+* [Príklady a Ukážky]()
+* [Štruktúra Projektu a Technické Detaily](https://github.com/greenline2ba/GIT_ALENA/blob/ec707459eece2935cd5f8b61735628256a3c496a/readme.md#L52)
 
 ## Popis funkcionality: 
 Používateľ zadá vstupy prostredníctvom metódy Input, systém prostredníctvom funkcie vypočíta výstup - cieľovú sumu na konci sporenia. 
@@ -48,20 +50,21 @@ Zadajte počet rokov: 10
 >>> Výsledok: Vaša budúca hodnota po 10 rokoch bude: ....xxx
 
 ## 💻 Štruktúra Projektu a Technické Detaily
--Použité moduly/knižnice:
 
--Matematické vzorce:
+**Použité moduly/knižnice**:
+
+**Matematické vzorce**:
 
 Vzorec pre počiatočný vklad: $FV = P(1+r)^n$
 
 Vzorec pre mesačné vklady: FV=PMT⋅r(1+r)n−1​
 
--Kľúčové funkcie:
+**Kľúčové funkcie**:
 
 vypocetCS(jednorazovy_vklad,pravidelny_vklad, urokova_sadzba_rocne, pocet_rokov):
 
 
-Kódové bloky 
+**Kódové bloky**:
 
 ```bash lshfkhfdhfdhftu je jus kodu 
 def pozdrav_meno(meno):
