@@ -19,7 +19,7 @@ Používateľ zadá vstupy prostredníctvom metódy Input, systém prostredníct
 
 > **POZOR:** Tento skript neberie do úvahy infláciu ani dane. Všetky výpočty sú len odhady.
 
-Nice to have: systém z dát vytvorí graf zobrazujúci vývoj investície v čase. 
+$Nice to have: systém z dát vytvorí graf zobrazujúci vývoj investície v čase.$
 ## ⚙️ Vstupné Parametre
 
 | Parameter | Popis | Typ Dát |
@@ -34,11 +34,9 @@ Nice to have: systém z dát vytvorí graf zobrazujúci vývoj investície v ča
 -vypočítaná cieľová suma
 
 ## 📊 Príklady a Ukážky
-**Scenár 1**: 
+### Scenár 1: - Jednoduché sporenie: 
 
--***Jednoduché sporenie***
-
--(Napr. Vklad $1000, 5\%$ úrok, 10 rokov).
+(Napr. Vklad $1000, 5\%$ úrok, 10 rokov).
 Zadajte počiatočný vklad: 1000
 Zadajte ročnú úrokovú sadzbu (%): 5
 Zadajte počet rokov: 10
@@ -46,10 +44,20 @@ Zadajte počet rokov: 10
 >>> Výsledok: Vaša budúca hodnota po 10 rokoch bude: 1628.89
 
 
-### Scenár 2 - Pravidelné sporenie :
+### Scenár 2 - Pravidelné sporenie:
  
--(Napr. pravidelný mesačný vklad $50, 5\%$ úrok, 10 rokov).
+(Napr. pravidelný mesačný vklad $50, 5\%$ úrok, 10 rokov).
+Zadajte pravidelný mesačný vklad: 50
+Zadajte ročnú úrokovú sadzbu (%): 5
+Zadajte počet rokov: 10
+
+>>> Výsledok: Vaša budúca hodnota po 10 rokoch bude: ....xxx
+
+### Scenár 3 - Pravidelné sporenie s počiatočným vkladom:
+
+(Napr. pravidelný mesačný vklad $50, 5\%$ úrok, 10 rokov).
 Zadajte počiatočný vklad: 1000
+Zadajte pravidelný mesačný vklad: 50
 Zadajte ročnú úrokovú sadzbu (%): 5
 Zadajte počet rokov: 10
 
@@ -58,6 +66,7 @@ Zadajte počet rokov: 10
 ## 💻 Štruktúra Projektu a Technické Detaily
 
 **Použité moduly/knižnice**:
+
 doplniť
 
 **Matematické vzorce**:
