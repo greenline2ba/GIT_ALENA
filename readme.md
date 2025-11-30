@@ -7,6 +7,10 @@ Toto je môj historicky prvý readme file.
 Napísať fungujúci skript na základnú finančnú (investičnú/ sporiacu) kalkulačku.  
 
 ## Obsah
+Základný obsah:
+* [Popisfunkcionality](Popis funkcionality)
+* [Vstupné Parametre](Vstupné Parametre)
+* [Postupy]()
 
 ## Popis funkcionality: 
 Používateľ zadá vstupy prostredníctvom metódy Input, systém prostredníctvom funkcie vypočíta výstup - cieľovú sumu na konci sporenia. 
