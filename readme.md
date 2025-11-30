@@ -45,13 +45,21 @@ Zadajte počet rokov: 10
 
 ## 💻 Štruktúra Projektu a Technické Detaily
 -Použité moduly/knižnice:
+
 -Matematické vzorce:
+
 Vzorec pre počiatočný vklad: $FV = P(1+r)^n$
+
 Vzorec pre mesačné vklady: FV=PMT⋅r(1+r)n−1​
+
 -Kľúčové funkcie:
+
 vypocetCS(jednorazovy_vklad,pravidelny_vklad, urokova_sadzba_rocne, pocet_rokov):
 
 
-Kódové bloky (```bash lshfkhfdhfdhf) 
+Kódové bloky 
 
-a inline kód ( nazov_suboru ) pre príkazy a názvy tvojich skriptov.
+```bash lshfkhfdhfdhftu je jus kodu 
+def pozdrav_meno(meno):
+    return(f"Ahoj, " + meno + "! Vitaj v našom investičnom programe.")
+print(pozdrav_meno("Alena"))
