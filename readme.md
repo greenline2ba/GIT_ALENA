@@ -1,7 +1,6 @@
 # Môj projekt AB- finančná kalkulačka
 Toto je môj historicky prvý readme file. 
 
-```markdown
 ---
 
 ## Cieľ: 
