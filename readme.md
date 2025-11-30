@@ -1,5 +1,5 @@
 # Môj projekt AB- finančná kalkulačka
-Toto je môj historicky prvý readme file. 
+Toto je môj historicky prvý readme file aj s oddeľovacou čiarou.  
 
 ---
 
@@ -35,7 +35,10 @@ Nice to have: systém z dát vytvorí graf zobrazujúci vývoj investície v ča
 
 ## 📊 Príklady a Ukážky
 **Scenár 1**: 
--Jednoduché sporenie (Napr. Vklad $1000, 5\%$ úrok, 10 rokov).
+
+-***Jednoduché sporenie***
+
+-(Napr. Vklad $1000, 5\%$ úrok, 10 rokov).
 Zadajte počiatočný vklad: 1000
 Zadajte ročnú úrokovú sadzbu (%): 5
 Zadajte počet rokov: 10
@@ -43,8 +46,9 @@ Zadajte počet rokov: 10
 >>> Výsledok: Vaša budúca hodnota po 10 rokoch bude: 1628.89
 
 
-### Scenár 2 ###:
- Pravidelné sporenie (Napr. pravidelný mesačný vklad $50, 5\%$ úrok, 10 rokov).
+### Scenár 2 - Pravidelné sporenie :
+ 
+-(Napr. pravidelný mesačný vklad $50, 5\%$ úrok, 10 rokov).
 Zadajte počiatočný vklad: 1000
 Zadajte ročnú úrokovú sadzbu (%): 5
 Zadajte počet rokov: 10
@@ -54,6 +58,7 @@ Zadajte počet rokov: 10
 ## 💻 Štruktúra Projektu a Technické Detaily
 
 **Použité moduly/knižnice**:
+doplniť
 
 **Matematické vzorce**:
 
@@ -68,13 +73,14 @@ Vzorec pre mesačné vklady:
 ```
 
 **Kľúčové funkcie**:
-
+```bash 
 vypocetCS(jednorazovy_vklad,pravidelny_vklad, urokova_sadzba_rocne, pocet_rokov):
+```
 
+**Kódové bloky ukážka**:
 
-**Kódové bloky**:
-
-```bash lshfkhfdhfdhftu je jus kodu 
+```bash 
 def pozdrav_meno(meno):
     return(f"Ahoj, " + meno + "! Vitaj v našom investičnom programe.")
 print(pozdrav_meno("Alena"))
+```
