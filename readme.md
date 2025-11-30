@@ -1,6 +1,9 @@
 # Môj projekt AB- finančná kalkulačka
 Toto je môj historicky prvý readme file. 
 
+```markdown
+---
+
 ## Cieľ: 
 Napísať fungujúci skript na základnú finančnú (investičnú/ sporiacu) kalkulačku.  
 
@@ -9,15 +12,20 @@ Napísať fungujúci skript na základnú finančnú (investičnú/ sporiacu) ka
 ## Popis funkcionality: 
 Používateľ zadá vstupy prostredníctvom metódy Input, systém prostredníctvom funkcie vypočíta výstup - cieľovú sumu na konci sporenia. 
 
+> **POZOR:** Tento skript neberie do úvahy infláciu ani dane. Všetky výpočty sú len odhady.
+
 Nice to have: systém z dát vytvorí graf zobrazujúci vývoj investície v čase. 
+## ⚙️ Vstupné Parametre
 
-Vstupy: 
--počiatočný vklad
--výška mesačnej platby
--dĺžka sporenia
--očakávaný výnos
+| Parameter | Popis | Typ Dát |
+| :--- | :--- | :--- |
+| `--počiatočný_vklad` | Počiatočná jednorázová suma investície. | Float |
+| `--mesačný_vklad` | Mesačná pravidelná suma investície. | Float |
+| `--počet_rokov` | Doba sporenia v celých rokoch. | Integer |
+| `--uroková sadzba_ročne` | Ročná úroková sadzba v percentách (napr. 5.5). | Float |
 
-Výstup: 
+
+## ⚙️ Výstup: 
 -vypočítaná cieľová suma
 
 ## 📊 Príklady a Ukážky
@@ -43,3 +51,8 @@ Vzorec pre počiatočný vklad: $FV = P(1+r)^n$
 Vzorec pre mesačné vklady: FV=PMT⋅r(1+r)n−1​
 -Kľúčové funkcie:
 vypocetCS(jednorazovy_vklad,pravidelny_vklad, urokova_sadzba_rocne, pocet_rokov):
+
+
+Kódové bloky (```bash lshfkhfdhfdhf) 
+
+a inline kód ( nazov_suboru ) pre príkazy a názvy tvojich skriptov.
