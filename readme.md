@@ -6,6 +6,7 @@ Napísať fungujúci skript na základnú finančnú (investičnú/ sporiacu) ka
 
 ## Popis funkcionality: 
 Používateľ zadá vstupy (počiatočný vklad, výška mesačnej platby, dĺžka sporenia, očakávaný výnos), systém prostredníctvom funkcie vypočíta cieľovú sumu na konci sporenia. 
+
 Nice to have: systém z dát vytvorí graf zobrazujúci vývoj investície v čase. 
 
 
