@@ -8,11 +8,11 @@ Napísať fungujúci skript na základnú finančnú (investičnú/ sporiacu) ka
 
 ## Obsah
 Základný obsah:
-* [Popisfunkcionality]()
-* [Vstupné Parametre]()
-* [Výstup]()
-* [Príklady a Ukážky]()
-* [Štruktúra Projektu a Technické Detaily](https://github.com/greenline2ba/GIT_ALENA/blob/ec707459eece2935cd5f8b61735628256a3c496a/readme.md#L52)
+* [Popis funkcionality](#popis-funkcionality)
+* [Vstupné parametre](#️-vstupné-parametre)
+* [Výstup](#️-výstup)
+* [Príklady a ukážky](#-príklady-a-ukážky)
+* [Štruktúra projektu a technické detaily](#-štruktúra-projektu-a-technické-detaily)
 
 ## Popis funkcionality: 
 Používateľ zadá vstupy prostredníctvom metódy Input, systém prostredníctvom funkcie vypočíta výstup - cieľovú sumu na konci sporenia. 
